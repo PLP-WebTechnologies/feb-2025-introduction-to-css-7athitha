@@ -1,0 +1,55 @@
+/* Element Selector for body */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+h1{ 
+    text-align: center;
+}
+
+p{
+    text-align: center;
+}
+
+footer {
+    font-family: 'Arial', sans-serif;
+    font-size: 15px;
+    background-color: #333;
+    color: white;
+    margin: 0;
+    padding: 2px;
+    text-align: center;
+}
+
+/* ID Selector for the page heading */
+#page-heading {
+    font-family: 'Helvetica', sans-serif;
+    color: #0056b3;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+/* Class Selector for paragraph */
+.intro-text {
+    font-family: 'Georgia', serif;
+    font-size: 1.1em;
+    line-height: 1.6;
+    margin: 20px auto;
+    width: 80%;
+}
+
+/* Class Selector for image */
+.styled-image {
+    width: 80%;
+    max-width: 600px;
+    border: 5px solid #0056b3;
+    padding: 10px;
+    margin: 20px auto;
+    display: block;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
